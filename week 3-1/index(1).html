@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--file creator: Richard Martin
+email:ricmart1@uat.edu
+for csc102 class sp2021online3-->
+
+<!-- Casino Assignment
+Title: Faster Than Light Casino
+Scene: The ceiling is a lazer light display of lightspeed travel. Patrons are scattered 
+all across the red with gold trimed tables. The floor is alive with with lights changing colors 
+when they are stepped on. The space port is filled with cruisers from all across the galaxy,
+as this is the number one high stakes casino in all of the milky way galaxy. Feeling lucky
+you step up to try your luck as a high roller. The Craps tables are waiting...-->
+<html lang="en">
+
+<link href="UATstyle.css" rel="stylesheet" type="text/css" /> <!--we are linking style sheets-->
+<script src="code.js"></script> <!--this is to link our hard codeing to the UI page-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UAT Space Stuff Martin </title>
+</head>
+<h1> <img src="UATspaceLogo-2.jpg"> </h1>
+<!--Sometimes this appears as an image sometimes not. Use Github for best results-->
+
+
+<body>
+
+
+    <script>  //This is a Javascript comment
+        // alert("Alert function test. Welcom to UAT Space Command");
+        document.write("Test of the document write function");
+
+    </script>
+
+    <p> Test of the paragraph tags </p> <!-- will eventually edit out the test statements-->
+
+    <p id="countDownTimer")>Starting countdown here... </p>
+
+    <!-- This is a comment. I'm just starting coding-->
+    <button class="button" onclick="countDownV2();"> Start </button><button class="button">Stop </button>
+<!--This secction is all about what will get displayed from the Craps game on the space casino-->
+    <br>
+    <br>
+    <h3 id="crapsResults">Results of the Craps Round </h3> <!--almost self explanitory. the results of craps h3 for good size-->
+    <br> 
+    Die1 is: <div id="die1Res">needs to be rolled</div><br> <!-- just stating that the dice have yet to role yet-->
+    Die2 is: <div id="die2Res">needs to be rolled</div><br> <!-- Each dice gets a display. Brings attention that they exist-->
+    Sum of Die1 + Die2 is: <div id="sumRes">needs to be rolled</div> <!-- where the combined totall will be displayed-->
+    <br>
+    <button class="lgButton" onclick="playCraps();">Play Craps Here!</button> <!-- new button class made for larger sized buttons-->
+<br>
+<br>
+<br>
+<div id="sandboxDisplay">Sandbox Display</div>
+<br>
+<button class="sandButton" onclick="runSandbox();"> Try It! </button>
+
+
+
+</body>
+
+</html>
